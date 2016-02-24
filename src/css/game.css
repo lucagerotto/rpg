@@ -1,0 +1,14 @@
+@-ms-viewport{
+  user-zoom:fixed;
+  max-zoom:2;
+  min-zoom:2;
+}
+
+body,html{
+  margin:0;
+  overflow:hidden;
+  -ms-content-zooming:none;
+  -ms-overflow-style:none !important;
+  background-color: #a8a8a8;
+  width:720px;
+  height:480px;
