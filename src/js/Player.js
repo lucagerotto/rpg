@@ -123,7 +123,7 @@ var Player = (function(game,map){
 	  	  this.itemSurface.draw(game.assets[ RES_ITEMS ]);
 	  	  for(var i = 0; i< this.inventory.length; i++){
 	  	    var item = new Sprite(game.spriteWidth, game.spriteHeight);
-	  	    item.x = 30 +70 *i;
+	  	    item.x = 20 +70 *i;
 	  	    item.frame = this.inventory[i];
 	  	    item.scaleX = 2;
 	  	    item.scaleY = 2;
